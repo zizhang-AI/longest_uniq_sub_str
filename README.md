@@ -8,4 +8,4 @@ e.g. Input: `moneycashshopbackcashmoney`
 Output: `10`
 
 ## Explanation
-The algorithm maintains a window and a lookup table to track characters already exist in the window. `startPos` is the window's starting position and index `i` is its ending positiion. if a character is not found in the window, the window expands by 1 character to the right; otherwise its starting position will be the next character following the repeated character.
+The algorithm maintains a window and a lookup table to track characters which already exist in the window. `startPos` is the window's starting position, and index `i` is its ending positiion. If the ith character is not found in the window, the window expands by 1 character to the right; otherwise its starting position will be the next character following the repeated character.
